@@ -8,7 +8,11 @@
 ## Example
 
 ```sh
-git branch -m master main
+git branch -m experiment   # rename current branch
+```
+
+```sh
+git branch -m master main   # rename master branch
 ```
 
 This renames branch in local repo. Cannot rename remote branch; need to create new branch then delete old one.
