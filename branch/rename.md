@@ -15,7 +15,7 @@ git branch -m experiment   # rename current branch
 git branch -m master main   # rename master branch
 ```
 
-This renames branch in local repo. Cannot rename remote branch; need to create new branch then delete old one.
+Renames branch in local repo. Cannot rename remote branch; need to create new branch then delete old one:
 
 ```sh
 git push -u origin main
